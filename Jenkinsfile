@@ -1,4 +1,7 @@
 pipeline {
+    triggers {
+        pollSCM('* * * * *')
+    }
   agent {
     kubernetes {
       label 'jenkins-agent-my-app'
