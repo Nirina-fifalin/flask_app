@@ -29,6 +29,8 @@ spec:
     image: alpine/k8s:1.27.16
     command: ["cat"]
     tty: true
+    securityContext:
+      runAsUser: 0
   volumes:
   - name: docker-sock
     hostPath:
