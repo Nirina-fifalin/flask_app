@@ -51,7 +51,7 @@ spec:
                 container('docker') {
                     sh '''
                         docker build -t host.minikube.internal:4000/pythontest:latest .
-                        docker push host.mininkube.internal:4000/pythontest:latest
+                        docker push host.minikube.internal:4000/pythontest:latest
                     '''
                 }
             }
