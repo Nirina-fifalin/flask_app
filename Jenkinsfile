@@ -4,7 +4,7 @@ pipeline {
     }
     agent {
         kubernetes {
-            label 'jenkins-agent-my-app'
+            label 'jenkins-agent-flask'
             yaml """
 apiVersion: v1
 kind: Pod
