@@ -12,6 +12,7 @@ metadata:
   labels:
     component: ci
 spec:
+  serviceAccountName: jenkins
   containers:
   - name: python
     image: python:3.9
@@ -25,7 +26,7 @@ spec:
     - mountPath: /var/run/docker.sock
       name: docker-sock
   - name: kubectl
-    image: bitnami/kubectl:latest
+    image: alpine/k8s:1.27.16
     command: ["cat"]
     tty: true
   volumes:
