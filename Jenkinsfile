@@ -50,8 +50,8 @@ spec:
             steps {
                 container('docker') {
                     sh '''
-                        docker build -t host.minikube.internal:4000/pythontest:latest .
-                        docker push host.minikube.internal:4000/pythontest:latest
+                        docker build -t 192.168.49.1:4000/pythontest:latest .
+                        docker push 192.168.49.1:4000/pythontest:latest
                     '''
                 }
             }
