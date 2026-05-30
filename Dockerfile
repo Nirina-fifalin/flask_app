@@ -14,7 +14,7 @@ RUN chmod a+x app.py test.py && \
     chown -R flask:flask ./
 
 # Déclarer la config de l'app
-ENV FLASK_APP app.py
+ENV FLASK_APP=app.py
 EXPOSE 5000
 
 # Changer d'user pour lancer l'app

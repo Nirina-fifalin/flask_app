@@ -17,5 +17,6 @@ spec:
       containers:
       - name: pythontest
         image: 192.168.49.1:4000/pythontest:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
