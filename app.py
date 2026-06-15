@@ -11,9 +11,9 @@ def hello_world():
 def hello_user(username):
     return 'Hello %s!\n' % username
 
-@app.route('/goodbye/<username>')
-def bonjour_user(username):
-    return 'Goodbye %s!\n' % username
+@app.route('/au-revoir/<username>')
+def au_revoir_user(username):
+    return 'Au revoir %s!\n' % username
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
