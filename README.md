@@ -1,4 +1,4 @@
-Voici les commandes utiles pour présenter votre TP de manière claire et progressive :
+Voici les commandes utiles pour présenter le TP de façon claire et progressive :
 
 ---
 
@@ -26,7 +26,7 @@ minikube service jenkins -n jenkins
 
 Montrez dans l'interface :
 - Le pipeline `flask_app`
-- Les stages : **Test** ✅ → **Build** ✅ → **Deploy** ✅
+- Les stages : **Test** OK → **Build** OK → **Deploy** OK
 - Les logs de chaque stage
 
 ---
