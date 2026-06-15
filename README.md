@@ -87,7 +87,7 @@ kubectl logs -l app=pythontest -n jenkins
 
 ```
 1. Expliquez l'architecture (GitHub → Jenkins → Docker → Kubernetes)
-2. Montrez le code (Jenkinsfile, app.py, test.py, Dockerfile)
+2. Montrez les codes (Jenkinsfile, app.py, test.py, Dockerfile)
 3. Montrez Jenkins et le pipeline SUCCESS
 4. Montrez l'application qui tourne dans le navigateur
 5. Faites un push en live et montrez le déclenchement automatique
