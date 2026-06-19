@@ -13,7 +13,7 @@ def hello_user(username):
 
 @app.route('/au-revoir/<username>')
 def au_revoir_user(username):
-    return 'Au revoir %s!\n' % username
+    return 'Au revoir %s?\n' % username
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
