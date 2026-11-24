@@ -19,6 +19,7 @@ def hello_user(username):
 def au_revoir_user(username):
     return 'Au revoir %s?\n' % username
 
+# Route de test pour valider le pipeline CI/CD
 @app.route('/feature')
 def feature():
     return 'Feature!\n'
