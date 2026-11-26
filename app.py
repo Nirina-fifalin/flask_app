@@ -19,7 +19,7 @@ def hello_user(username):
 def au_revoir_user(username):
     return 'Au revoir %s?\n' % username
 
-# Route de test pour valider le pipeline CI/CD non?
+# Route de test pour valider le pipeline CI/CD oui ou non?
 @app.route('/feature')
 def feature():
     return 'Feature!\n'
@@ -27,5 +27,6 @@ def feature():
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
 
+# Test final du pipeline CI/CD (feature1)
 
 # Test final du pipeline CI/CD
