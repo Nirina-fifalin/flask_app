@@ -28,3 +28,5 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0')
 
 # Test final du pipeline CI/CD (feature1)
+
+# Test final du pipeline CI/CD
